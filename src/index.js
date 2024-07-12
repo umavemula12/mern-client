@@ -18,7 +18,7 @@ VirtualRoot.render(
       <Header/>
       <h1>Welcome</h1><br/>
       <Home/><br/>
-      <Example/>
+      {/* <Example/> */}
       {/*Add this tag her */}
       <br />
     </div>

@@ -23,7 +23,7 @@ export default function Register() {
 
         try {
             console.log("Submitting form data:", formData); // Debug log
-            const response = await axios.post("http://localhost:3001/users/register", formData);
+            const response = await axios.post("http://51.20.12.124:3001/users/register", formData);
             console.log("Form data submitted successfully!", response.data)
             
             if (response.data && response.data.message) {
